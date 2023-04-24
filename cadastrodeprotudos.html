@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de produtos</title>
+    <link rel="stylesheet" href="cadastrodeprodutos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Bem-vindos aos Star Geek!
+                        O maior e melhor site para cultura geeks!
+                    </a></li>
+                    <li><a href="#">Fique bem!
+                        LOL</a></li>
+              
+            </nav>
+            <div>
+                <img src="imagens/stargeeklogo.png" alt="Stargeek logo">
+            </div>
+        </header>
+        <main>
+            <div class="box"></div>
+        </main>
+        <aside>
+            <h1>Cadastro de produtos</h1>
+            <form action="">
+                <label for="nome">Nome do produto:</label>
+                <input type="text" name="nome" id="nome" required>
+                <label for="categoria">Categoria:</label>
+                <select name="categoria" id="categoria" required>
+                    <option value="">Selecione seu product</option>
+                    <option value="1">Gibis</option>
+                    <option value="2">Camisas</option>
+                    <option value="3">Pacotes</option>
+                </select>
+                <label for="preco">Preço (de 0 a ♾)</label>
+                <input type="number" name="preco" id="preco" required>
+                <label for="descricao">Descrição (descreva seu produto, como características físicas por exemplo)</label>
+                <textarea name="descricao" id="descricao" cols="30" rows="5" required></textarea>
+                <input type="submit" value="Cadastrar">
+            </form>
+        </aside>
+        <footer>
+            <p>&copy; Medeiros</p>
+        </footer>
+    </div>
+</body>
+</html>
