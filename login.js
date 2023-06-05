@@ -14,7 +14,5 @@ formulario.onsubmit = (evento) => {
             mensagem.innerHTML = "Senha ou Email incorreto."
          }
     }
-  
-       
- }
-};
+}
+

@@ -37,17 +37,20 @@
                     <option value="1">Gibis</option>
                     <option value="2">Camisas</option>
                     <option value="3">Pacotes</option>
+                    <option value="4">Outros...</option>
                 </select>
                 <label for="preco">Preço (de 0 a ♾)</label>
                 <input type="number" name="preco" id="preco" required>
                 <label for="descricao">Descrição (Descreva seu produto, como características físicas, por exemplo.)</label>
                 <textarea name="descricao" id="descricao" cols="30" rows="5" required></textarea>
-                <input type="submit" value="Cadastrar">
+                <input type="file" name="foto" id="foto">
+                <input type="submit" value="Cadastrar" id="botao">
             </form>
         </aside>
         <footer>
             <p>&copy; Medeiros</p>
         </footer>
     </div>
+    <script src="cadastrodeprotudos.js"></script>
 </body>
 </html>
